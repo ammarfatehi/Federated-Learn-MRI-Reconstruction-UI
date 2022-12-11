@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import Login from './views/Login';
+import Registration from './views/Registration';
 
-function App() {
+const App = (): React.ReactElement => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload draw peniss.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learns 
-        </a>
-      </header>
+    <div className="w-screen h-screen">
+      <NavBar />
+      <Registration />
     </div>
   );
-}
+};
 
 export default App;
