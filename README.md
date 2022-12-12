@@ -2,14 +2,14 @@
 
 ## Views
 
-Profile Page
-Sessions Page
-Session Page
-Round Page
+Profile Page \
+Sessions Page \
+Session Page \
+Round Page \
 
 ## Components
 
-idk yet
+idk yet \
 
 # Getting Started with Create React App
 
